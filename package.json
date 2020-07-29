@@ -1,0 +1,16 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "homepage": "https://dmytroohorodnik.com/",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Dmytro Ohorodnik",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.14.1"
+  }
+}
